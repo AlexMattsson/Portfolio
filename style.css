@@ -1,0 +1,198 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#sidebar-wrapper {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  z-index: 1001;
+}
+
+#sidebar-wrapper .list-group {
+  margin-left: 0rem;
+  width: 20rem;
+  font-size: 2rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+/* Mobile Design */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #startpage-text {
+    font-size: 5vh;
+  }
+  #menu-toggle {
+    display: block !important;
+  }
+
+}
+
+#menu-toggle {
+  height: 5%;
+  width: auto;
+  z-index: 1001;
+  position: fixed;
+  display: none;
+}
+
+#allpages {
+  width: 100%;
+}
+
+.pages {
+  height: 100vh;
+  width: 100%;
+}
+
+#startpage {
+  background-image: url("https://images.unsplash.com/photo-1563547257011-054b1054e185?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#startpage-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#startpage-text {
+  z-index: 999;
+  padding-right: 1rem;
+  color: lightblue;
+  font-size: 20vh;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+
+
+}
+
+.contents {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info {
+  background-color: blue;
+}
+
+#info-content {
+
+}
+
+#info-text {
+  font-size: 2rem;
+  margin: 0;
+  z-index: 999;
+  background-color: white;
+  padding: 5vh;
+  border-radius: 1vh;
+}
+
+#projekt {
+  background-color: orange;
+}
+
+#projekt-container {
+  width: 700px;
+  margin: auto;
+}
+
+.projekt-text {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#projekt1 {
+  background-image: url("https://raw.githubusercontent.com/Axelander3/Programmering2Projekt2/master/MyGame/src/guy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+#projekt1:hover {
+  cursor: pointer;
+}
+
+#projekt2 {
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/21/14/09/coffe-4289545_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+#projekt3 {
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/21/14/09/coffe-4289545_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-top: 100px;
+}
+
+#projekt4 {
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/21/14/09/coffe-4289545_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-top: 100px;
+}
+
+#erfarenheter {
+  background-color: yellow;
+}
+
+#erfarenheter-text {
+  font-size: 1rem;
+  margin: 0;
+  z-index: 999;
+  background-color: white;
+  padding: 5vh;
+  border-radius: 1vh;
+  text-align: center;
+}
+
+#erfarenheter-text h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+#annan {
+  background-color: magenta;
+}
+
+#annan-text {
+  font-size: 2rem;
+  margin: 0;
+  z-index: 999;
+  background-color: white;
+  padding: 5vh;
+  border-radius: 1vh;
+}
